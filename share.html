@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Task-Manager</title>
+<link rel="stylesheet" href="public/css/bootstrap.min.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="/">Task-manager</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+  <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="AddTask.html">Add Tasks</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link" href="UpdateTask.html">Update task </a>
+     
+         <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+  
+       <li class="nav-item">
+        <a class="nav-link" href="register.html">Registration <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="login.html" id="logout">Log out</a>
+          </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+    <div class=".col-6 .col-md-4">
+        <form id="SendForm">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+        
+            <button type="submit" class="btn btn-success" id="send">Send</button>
+          </form>
+    </div>
+
+
+</div>
+    
+
+
+
+
+
+<script src="public/js/jquery.min.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
+<script src="public/js/share.js"></script>
+
+</body>
+</html>
