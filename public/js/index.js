@@ -66,6 +66,7 @@ function getTasks(){
             ` 
             <div class="card">
             <div class="card-body">
+            <small class="text-muted">${value.id}</small>
               <h5 class="card-title">${value.name}</h5>
               <p class="card-text">${value.description}</p>
             </div>
