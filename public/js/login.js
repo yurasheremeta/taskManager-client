@@ -32,7 +32,7 @@
              // }
  
              if(data.responseJSON.role == "ROLE_USER"){
-               $(location).attr('href' , 'home.html');
+               $(location).attr('href' , 'index.html');
              }
            //  $(location).attr('href' , 'index.html');
            }
